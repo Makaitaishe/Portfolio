@@ -496,14 +496,15 @@ header .navbar ul li a:hover {
     gap: 4rem;
   }
 
+  /* Hide duplicate photo on mobile so it does not repeat back-to-back with the hero picture */
   .about .row .image {
-    width: 100%;
-    max-width: 36rem;
-    margin: 0 auto;
+    display: none;
   }
 
   .about .row .content {
     width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
   }
 
   .about .row .content h3 {
